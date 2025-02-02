@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Океан: Проблема</title>
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo"><span>O</span>cean</a>
+          <div class="menu-toggle">
+             <i class="fas fa-bars"></i>
+           </div>
+         <ul class="nav-links">
+              <li><a href="index.html" >Главная</a></li>
+              <li><a href="problem.html" class="active">О проблеме</a></li>
+              <li><a href="solutions.html">Решения</a></li>
+              <li><a href="wildlife.html">Животные</a></li>
+              <li><a href="projects.html">Проекты</a></li>
+            
+          </ul>
+       </div>
+      </nav>
+     <div class="mobile-nav">
+        <ul class="mobile-nav-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="problem.html" class="active">О проблеме</a></li>
+           <li><a href="solutions.html">Решения</a></li>
+            <li><a href="wildlife.html">Животные</a></li>
+            <li><a href="projects.html">Проекты</a></li>
+          
+        </ul>
+     </div>
+    <section class="problem" id="problem">
+        <div class="container">
+            <h2>Угрозы Океану</h2>
+            <div class="gallery">
+               <div class="gallery-item"><img src="сломанные каралы.png" alt="Разрушенный коралл"></div>
+               <div class="gallery-item"><img src="чистка.jpg" alt="Загрязнение"></div>
+               <div class="gallery-item"><img src="черепашка.webp" alt="Морская черепаха"></div>
+            </div>
+            <div class="infographics">
+               <div class="infographic-item">
+                    <div class="infographic-text">
+                       <span class="infographic-number">80%</span>
+                       <span class="infographic-label">Загрязнения в океане из наземных источников</span>
+                   </div>
+                </div>
+                <div class="infographic-item">
+                    <div class="infographic-text">
+                        <span class="infographic-number">50%</span>
+                        <span class="infographic-label">Коралловых рифов потеряно</span>
+                   </div>
+                </div>
+                <div class="infographic-item">
+                  <div class="infographic-text">
+                      <span class="infographic-number">100000</span>
+                      <span class="infographic-label">Морских животных умирают от пластика ежегодно</span>
+                   </div>
+               </div>
+           </div>
+            <div class="problem-text-container">
+                <p class="problem-text">
+                   Морские экосистемы сталкиваются с беспрецедентными угрозами, включая загрязнение пластиком, разрушение кораллов и чрезмерный вылов рыбы.
+                </p>
+            </div>
+           <div class="quote">
+                <p>
+                    "Сохранение океана — это не просто экологическая задача, это инвестиция в наше будущее."
+                   <br>
+                    <span> - Сильвия Эрл, морской биолог</span>
+               </p>
+            </div>
+             <div class="quiz-container">
+                <h2>Опрос</h2>
+                <p>Что является самой большой угрозой для океана?</p>
+                <form id="quiz-form">
+                    <div class="quiz-option">
+                         <input type="radio" id="option1" name="quiz" value="pollution">
+                         <label for="option1">Загрязнение пластиком</label>
+                    </div>
+                    <div class="quiz-option">
+                         <input type="radio" id="option2" name="quiz" value="overfishing">
+                       <label for="option2">Чрезмерный вылов рыбы</label>
+                   </div>
+                   <div class="quiz-option">
+                         <input type="radio" id="option3" name="quiz" value="climate">
+                       <label for="option3">Изменения климата</label>
+                   </div>
+                  <button type="submit" class="quiz-button">Ответить</button>
+             </form>
+             <div id="result"></div>
+            </div>
+        </div>
+     </section>
+<script src="script.js"></script>
+</body>
+</html>

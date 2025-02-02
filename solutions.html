@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Океан: Решения</title>
+   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+          <a href="index.html" class="logo"><span>O</span>cean</a>
+             <div class="menu-toggle">
+               <i class="fas fa-bars"></i>
+              </div>
+             <ul class="nav-links">
+               <li><a href="index.html">Главная</a></li>
+               <li><a href="problem.html" >О проблеме</a></li>
+               <li><a href="solutions.html" class="active">Решения</a></li>
+               <li><a href="wildlife.html">Животные</a></li>
+               <li><a href="projects.html">Проекты</a></li>
+  
+             </ul>
+        </div>
+    </nav>
+     <div class="mobile-nav">
+        <ul class="mobile-nav-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="problem.html">О проблеме</a></li>
+           <li><a href="solutions.html" class="active">Решения</a></li>
+            <li><a href="wildlife.html">Животные</a></li>
+            <li><a href="projects.html">Проекты</a></li>
+        
+        </ul>
+     </div>
+    <section class="solutions" id="solutions">
+        <div class="container">
+            <h2>Что мы можем сделать</h2>
+            <div class="solutions-grid">
+              <div class="solution-item">
+                  <i class="fas fa-recycle"></i>
+                  <p>Сокращение отходов</p>
+                   <a href="projects.html" class="solution-button">Узнать больше</a>
+               </div>
+              <div class="solution-item">
+                  <i class="fas fa-water"></i>
+                   <p>Очистка океана</p>
+                    <a href="projects.html" class="solution-button">Узнать больше</a>
+                </div>
+                <div class="solution-item">
+                    <i class="fas fa-fish"></i>
+                    <p>Устойчивое рыболовство</p>
+                    <a href="projects.html" class="solution-button">Узнать больше</a>
+               </div>
+           </div>
+            <div class="video-container">
+                 <video controls width="560" height="315" onerror="handleVideoError(this)">
+                     <source src="motivation.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                </video>
+                 <div class="video-error" style="display: none;">
+                    <p>Не удалось загрузить видео. Пожалуйста, проверьте соединение с интернетом и убедитесь, что файл видео существует.</p>
+                </div>
+            </div>
+           <p class="solutions-text">Каждый наш вклад, будь то сокращение пластикового потребления, поддержка экологичных инициатив или распространение знаний, приближает нас к здоровому океану.</p>
+           <div class="animated-elements">
+             <div class="animated-element">
+                <div class="animated-bubble"></div>
+                <div class="animated-bubble-2"></div>
+                </div>
+           </div>
+        </div>
+     </section>
+ <script src="script.js"></script>
+</body>
+</html>
